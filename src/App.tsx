@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import { Navigate } from "react-router-dom";
 
 const queryClient = new QueryClient();
 
@@ -15,6 +16,11 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
+          <Route
+            path="/"
+            element={<Navigate to="/store/apps/com.dsdevelop.rastreiofacil" />}
+          />
+          <Route path="/" element={<Navigate to="/rastreiofacil" />} />
           <Route
             path="/store/apps/com.dsdevelop.rastreiofacil"
             element={<Index />}
