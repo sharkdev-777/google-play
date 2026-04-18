@@ -12,7 +12,7 @@ const AboutSection = () => {
         Agora app rastreia códigos internacionais de empresas como: FedEx, USPS, DHL, BR1 Express, Wish (aligren), Serpos POST, entre outros!
       </p>
       <p className="text-sm text-muted-foreground leading-relaxed mt-3">
-        Com o app Rastreio Fácil, você pode rastrear todas as suas encomendas registradas no Correios, e nas transportadoras Plimor, Patrus, Sequoia/Jadlog (Mercado Livre), e nas transportadoras do sistema SSW...
+        Com o app RastreiaApp você pode rastrear todas as suas encomendas registradas no Correios, e nas transportadoras Plimor, Patrus, Sequoia/Jadlog (Mercado Livre), e nas transportadoras do sistema SSW...
       </p>
       <div className="mt-4">
         <p className="text-xs text-muted-foreground"><span className="font-medium text-foreground">Atualizado em</span><br />16 de jul. de 2025</p>

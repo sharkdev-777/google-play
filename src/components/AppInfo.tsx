@@ -1,6 +1,6 @@
 import { Star, Share2, Flag, BookmarkPlus } from "lucide-react";
 import appIcon from "@/assets/app-icon.png";
-import icon from "@/assets/app.webp";
+import icon from "@/assets/logo.png";
 import { Button } from "./ui/button";
 
 const AppInfo = () => {
@@ -9,19 +9,19 @@ const AppInfo = () => {
       <div className="flex gap-6 items-start">
         <img
           src={icon}
-          alt="Rastreio Fácil"
+          alt="Rastreio App"
           className="w-[72px] h-[72px] rounded-xl shadow"
         />
 
         <div className="flex-1">
           <h1 className="leading-none text-2xl font-google font-medium text-foreground">
-            Rastreio Fácil (correios)
+            RastreiaApp
           </h1>
           <a
             href="#"
             className="text-sm text-gplay-green font-medium mt-1 inline-block"
           >
-            DS Develop
+            Tech Develop
           </a>
           <p className="text-xs text-muted-foreground mt-1">
             Contém anúncios · Compras no app
@@ -33,7 +33,7 @@ const AppInfo = () => {
         <div className="flex items-center gap-6 mt-4 text-sm">
           <div className="flex flex-col items-center text-center">
             <div className="flex items-center gap-1 font-medium text-foreground">
-              4,7 <Star className="w-3 h-3 fill-current" />
+              4,9 <Star className="w-3 h-3 fill-current" />
             </div>
             <p className="text-xs text-muted-foreground">76 mil avaliações</p>
           </div>
