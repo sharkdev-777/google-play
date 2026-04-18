@@ -60,7 +60,7 @@ const RatingsSection = () => {
       <div className="flex gap-8 mb-8">
         <div className="flex-shrink-0">
           <div className="text-5xl font-google font-medium text-foreground">
-            4,7
+            4,9
           </div>
           <div className="flex gap-0.5 mt-1">
             {[1, 2, 3, 4, 5].map((i) => (
