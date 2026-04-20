@@ -1,5 +1,4 @@
 import { Star, Share2, Flag, BookmarkPlus } from "lucide-react";
-import icon from "@/assets/logo.png";
 import { Button } from "./ui/button";
 
 const AppInfo = () => {
