@@ -1,5 +1,4 @@
 import { Star, Share2, Flag, BookmarkPlus } from "lucide-react";
-import appIcon from "@/assets/app-icon.png";
 import icon from "@/assets/logo.png";
 import { Button } from "./ui/button";
 
@@ -8,7 +7,7 @@ const AppInfo = () => {
     <div className="flex flex-col gap-6">
       <div className="flex gap-6 items-start">
         <img
-          src={icon}
+          src="/logo.png"
           alt="Rastreio App"
           className="w-[72px] h-[72px] rounded-xl shadow"
         />
