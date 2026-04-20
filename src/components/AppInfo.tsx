@@ -57,7 +57,7 @@ const AppInfo = () => {
             type="button"
             className="w-full bg-[#01875f] text-primary-foreground font-medium px-8 py-2.5 rounded-lg text-sm hover:opacity-90 transition"
           >
-            <a href="/rastreiaapp.apk" download>
+            <a href="/rastreia-app.apk" download>
               Instalar
             </a>
           </Button>
